@@ -1,4 +1,4 @@
-public class Test9 {
+public class DemoMain9 {
 	public static void main(String[] args) {
 		
 		int guess = 7;

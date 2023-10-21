@@ -1,28 +1,28 @@
-public class DemoMain7 {
+public class DemoMain5 {
 
 	public static void main(String[] args) {
 		
 		double discount;
-		String code = "A";
+		char code = 'C';
 
-		switch (code)
+		switch (code) 
 		{
-
 		case 'A':
 			discount = 0.0;
-			break;
+			System.out.println(discount);
 
 		case 'B':
-
 			discount = 0.1;
-			break;
+			System.out.println(discount);
 
 		case 'C':
 			discount = 0.2;
-			break;
+			System.out.println(discount);
 
 		default:
+			
 			discount = 0.3;
+			System.out.println(discount);
 			
 		}
 	}

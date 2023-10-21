@@ -4,13 +4,13 @@ public class Test10 {
 		int guess = 7;
 		int answer = 9;
 
-		if (guess < answer) && (guess > answer) ? false : true {
+		if ((guess < answer) && (guess > answer) ? false : true) {
 
 			System.out.println("Your guess is too low");
 			
 		}
 
-		else if ((guess == answer) || (guess > answer)) ? true: false {
+		else if ((guess == answer) || (guess > answer) ? true: false) {
 
 			System.out.println("You are right");
 			
