@@ -5,7 +5,7 @@ public class Q15 {
 
 		if (i <= j) {
 
-			System.out.println(i);
+			System.out.println(i,j);
 			
 		}
 		
